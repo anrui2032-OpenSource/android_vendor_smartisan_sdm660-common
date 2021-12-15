@@ -102,9 +102,6 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
 		},
@@ -226,7 +223,7 @@ android_app_import {
 android_app_import {
 	name: "PowerOffAlarm",
 	owner: "smartisan",
-	apk: "proprietary/vendor/app/PowerOffAlarm/PowerOffAlarm.apk",
+	apk: "proprietary/product/app/PowerOffAlarm/PowerOffAlarm.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
