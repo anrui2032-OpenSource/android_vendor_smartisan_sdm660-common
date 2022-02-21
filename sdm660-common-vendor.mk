@@ -120,7 +120,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libsmart_hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmart_hdr.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libsmcv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmcv.so \
-    vendor/smartisan/sdm660-common/proprietary/vendor/lib/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libtt_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtt_panorama.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libyuvutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyuvutils.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.hal.tof.so \
@@ -128,7 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sdm660-common/proprietary/lib64/lib_ifaa_tac.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_ifaa_tac.so \
     vendor/smartisan/sdm660-common/proprietary/lib64/libifaa_daemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libifaa_daemon.so \
     vendor/smartisan/sdm660-common/proprietary/lib64/libifaa_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libifaa_jni.so \
-    vendor/smartisan/sdm660-common/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/firmware/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/firmware/libpn553_fw.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibrary.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
