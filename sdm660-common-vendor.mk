@@ -99,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sdm660-common/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/smartisan/sdm660-common/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/smartisan/sdm660-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/smartisan/sdm660-common/proprietary/vendor/lib/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm660.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libMMBeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMMBeauty.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libSensorManagerHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSensorManagerHAL.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
@@ -125,7 +124,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libtt_panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtt_panorama.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/libyuvutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyuvutils.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.hal.tof.so \
-    vendor/smartisan/sdm660-common/proprietary/vendor/lib64/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.sdm660.so \
     vendor/smartisan/sdm660-common/proprietary/vendor/lib64/hw/fingerprint.fpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.fpc.so \
     vendor/smartisan/sdm660-common/proprietary/lib64/lib_ifaa_tac.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib_ifaa_tac.so \
     vendor/smartisan/sdm660-common/proprietary/lib64/libifaa_daemon.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libifaa_daemon.so \
