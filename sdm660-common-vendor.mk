@@ -440,9 +440,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libmmcamera_interface \
     libdualcameraddm \
-    ifaa_fw \
-    dm-tool \
-    logic_volume
+    ifaa_fw
 
 PRODUCT_COPY_FILES += \
     vendor/smartisan/sdm660-common/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
@@ -536,8 +534,10 @@ PRODUCT_COPY_FILES += \
     vendor/smartisan/sdm660-common/proprietary/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
     vendor/smartisan/sdm660-common/proprietary/vendor/bin/diag_socket_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_socket_log \
     vendor/smartisan/sdm660-common/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
+    vendor/smartisan/sdm660-common/proprietary/vendor/bin/dm-tool:$(TARGET_COPY_OUT_VENDOR)/bin/dm-tool \
     vendor/smartisan/sdm660-common/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/smartisan/sdm660-common/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
+    vendor/smartisan/sdm660-common/proprietary/vendor/bin/logic_volume:$(TARGET_COPY_OUT_VENDOR)/bin/logic_volume \
     vendor/smartisan/sdm660-common/proprietary/vendor/bin/hci_qcomm_init:$(TARGET_COPY_OUT_VENDOR)/bin/hci_qcomm_init \
     vendor/smartisan/sdm660-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/smartisan/sdm660-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
