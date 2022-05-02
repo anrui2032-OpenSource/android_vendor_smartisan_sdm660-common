@@ -1031,7 +1031,6 @@ PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
     QtiSystemService \
     QtiTelephonyService \
-    datastatusnotification \
     embms \
     imssettings \
     uceShimService \
